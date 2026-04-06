@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kontakt</title>
+  <style>
+    :root {
+      --bg: #faf7f5;
+      --ink: #2c2420;
+      --accent: #8b5a5a;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: Georgia, "Times New Roman", serif;
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.65;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1.5rem;
+    }
+    .stack {
+      text-align: center;
+      max-width: 22rem;
+    }
+    .podpis {
+      margin: 0 0 1.5rem;
+      font-size: 1.35rem;
+      font-weight: normal;
+      color: var(--ink);
+    }
+    .btn {
+      display: inline-block;
+      padding: 0.85rem 1.75rem;
+      font-family: inherit;
+      font-size: 1.05rem;
+      text-decoration: none;
+      background: var(--accent);
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    .btn:hover {
+      filter: brightness(1.06);
+    }
+  </style>
+</head>
+<body>
+  <div class="stack">
+    <p class="podpis">Pamiętasz mnie?</p>
+    <a class="btn" href="https://wa.me/48607651354" rel="noopener noreferrer" target="_blank">Pamiętam</a>
+  </div>
+</body>
+</html>
